@@ -20,8 +20,8 @@
     <link rel="icon" type="image/png" href="https://user-images.githubusercontent.com/1638614/122673798-556b6f00-d1fc-11eb-9680-f38723f234ca.png" sizes="128x128">
     <meta name="description" content="No nonsense graph querying">
     
-    <link rel="preload" href="/gqlite-docs/assets/css/0.styles.05b77c73.css" as="style"><link rel="preload" href="/gqlite-docs/assets/js/app.6969167d.js" as="script"><link rel="preload" href="/gqlite-docs/assets/js/2.fa7cc2b9.js" as="script"><link rel="preload" href="/gqlite-docs/assets/js/10.62f06b2f.js" as="script"><link rel="prefetch" href="/gqlite-docs/assets/js/3.9c73b934.js"><link rel="prefetch" href="/gqlite-docs/assets/js/4.65cf8208.js"><link rel="prefetch" href="/gqlite-docs/assets/js/5.d39782a6.js"><link rel="prefetch" href="/gqlite-docs/assets/js/6.3e9dd60e.js"><link rel="prefetch" href="/gqlite-docs/assets/js/7.cc6f3147.js"><link rel="prefetch" href="/gqlite-docs/assets/js/8.41bf837f.js"><link rel="prefetch" href="/gqlite-docs/assets/js/9.91575150.js">
-    <link rel="stylesheet" href="/gqlite-docs/assets/css/0.styles.05b77c73.css">
+    <link rel="preload" href="/gqlite-docs/assets/css/0.styles.35a0f3d0.css" as="style"><link rel="preload" href="/gqlite-docs/assets/js/app.e684fee9.js" as="script"><link rel="preload" href="/gqlite-docs/assets/js/2.fa7cc2b9.js" as="script"><link rel="preload" href="/gqlite-docs/assets/js/10.2438d644.js" as="script"><link rel="prefetch" href="/gqlite-docs/assets/js/3.9c73b934.js"><link rel="prefetch" href="/gqlite-docs/assets/js/4.061c7ae6.js"><link rel="prefetch" href="/gqlite-docs/assets/js/5.42c2a2a6.js"><link rel="prefetch" href="/gqlite-docs/assets/js/6.3e9dd60e.js"><link rel="prefetch" href="/gqlite-docs/assets/js/7.cc6f3147.js"><link rel="prefetch" href="/gqlite-docs/assets/js/8.41bf837f.js"><link rel="prefetch" href="/gqlite-docs/assets/js/9.91575150.js">
+    <link rel="stylesheet" href="/gqlite-docs/assets/css/0.styles.35a0f3d0.css">
   </head>
   <body>
     <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/gqlite-docs/" class="home-link router-link-active"><img src="https://user-images.githubusercontent.com/1638614/122673795-54d2d880-d1fc-11eb-9a8d-54997a52520c.png" alt="GQLite" class="logo"> <span class="site-name can-hide">GQLite</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/gqlite-docs/" class="nav-link">
@@ -115,12 +115,10 @@ app<span class="token punctuation">.</span><span class="token function">listen</
 <span class="token punctuation">}</span><span class="token punctuation">)</span>
 
 
-</code></pre></div><h2 id="use-in-other-frameworks-libraries"><a href="#use-in-other-frameworks-libraries" class="header-anchor">#</a> Use in other frameworks / libraries</h2> <p>You can use the .process method in order to make GQLite work with other libraries except Express.js</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code>    q<span class="token punctuation">.</span><span class="token function">process</span><span class="token punctuation">(</span>method<span class="token punctuation">,</span> body<span class="token punctuation">,</span> query<span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">err<span class="token punctuation">,</span> response</span><span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span>
-        <span class="token comment">// handle err</span>
-        <span class="token comment">// handle response</span>
-    <span class="token punctuation">}</span><span class="token punctuation">)</span>
-
-
+</code></pre></div><h2 id="use-in-other-frameworks-libraries"><a href="#use-in-other-frameworks-libraries" class="header-anchor">#</a> Use in other frameworks / libraries</h2> <p>You can use the .process method in order to make GQLite work with other libraries except Express.js</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code>q<span class="token punctuation">.</span><span class="token function">process</span><span class="token punctuation">(</span>method<span class="token punctuation">,</span> body<span class="token punctuation">,</span> query<span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">err<span class="token punctuation">,</span> response</span><span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+    <span class="token comment">// handle err</span>
+    <span class="token comment">// handle response</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
 </code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
       ←
       <a href="/gqlite-docs/Installation.html" class="prev">
@@ -130,6 +128,6 @@ app<span class="token punctuation">.</span><span class="token function">listen</
       </a>
       →
     </span></p></div> </main></div><div class="global-ui"></div></div>
-    <script src="/gqlite-docs/assets/js/app.6969167d.js" defer></script><script src="/gqlite-docs/assets/js/2.fa7cc2b9.js" defer></script><script src="/gqlite-docs/assets/js/10.62f06b2f.js" defer></script>
+    <script src="/gqlite-docs/assets/js/app.e684fee9.js" defer></script><script src="/gqlite-docs/assets/js/2.fa7cc2b9.js" defer></script><script src="/gqlite-docs/assets/js/10.2438d644.js" defer></script>
   </body>
 </html>
